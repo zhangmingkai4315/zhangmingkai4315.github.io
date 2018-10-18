@@ -1,0 +1,51 @@
+title: MikeZhang.CC
+description: 我的个人博客，积累技术，分享生活
+author: Mike Zhang
+github: https://github.com/zhangmingkai4315
+about: DNS DevOps 摄影 程序员 非洲 北京 CISSP CISA Security+
+disqus_shortname: mikezhang
+google_analytics: 
+avatar_url: /static/img/me.jpeg
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-500px
+      link: "https://500px.com/zhangmingkai1989"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/mingkai-zhang-1a08216b/"
+    - icon: fa-github
+      link: "https://github.com/zhangmingkai4315"
+
+urls:
+    - text: 我的照片
+      url: https://500px.com/zhangmingkai1989
+    - text: 业余项目
+      url: /projects/
+    - text: 订阅Feed
+      url: /feed.xml
+    - text: 关于我
+      url: /about/
+
+url: "https://mikezhang.cc"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
