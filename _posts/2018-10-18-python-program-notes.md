@@ -5,7 +5,7 @@ date: 2018-10-18T11:32:41+00:00
 author: mingkai
 layout: post
 guid: http://mikezhang.cc/?p=41
-permalink: /2018/07/python-program-notes/
+permalink: /2018/10/python-program-notes/
 categories:
   - python
 tags:

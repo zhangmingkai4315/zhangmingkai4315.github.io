@@ -1,9 +1,11 @@
 ---
-title: Python自定义包管理
+id: 41
+layout: post
+title: Python包管理
 date: 2018-10-20T11:32:41+00:00
 author: mingkai
-layout: post
-permalink: /2018/07/python-package-management/
+guid: http://mikezhang.cc/?p=41
+permalink: /2018/10/python-package-management/
 categories:
   - python
 tags:
