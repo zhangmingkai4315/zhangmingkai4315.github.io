@@ -1,7 +1,39 @@
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Regular'),url('./github/400.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Open Sans Italic'),url('./github/400i.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Open Sans Bold'),url('./github/700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: bold;
+    src: local('Open Sans Bold Italic'),url('./github/700i.woff') format('woff');
+}
+html {
+  font-size: 16px;
+}
 body {
-  font-family: "Roboto Condensed", Arial, sans-serif;
-  background: url("/static/img/subtle_dots.png");
-  line-height: 1.5em;
+  font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: rgb(51, 51, 51);
+  line-height: 1.6;
   font-weight: 300;
   font-size: 16px;
   color: #666;
@@ -18,17 +50,62 @@ span.time, span.categories {
   margin-bottom: 5px;
   font-size: 11px;
 }
-h1, h2, h3 {
-  color: #696969;
-  font-weight: normal;
-}
 h1 {
-  margin-bottom: 10px;
-  font-size: 25px;
+  padding-bottom: .3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
 }
-h2, h3,h4,h5 {
-  margin: 20px 0;
+h2 {
+ padding-bottom: .3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
 }
+h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+h4 {
+  font-size: 1.25em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+ font-size: 1em;
+  color: #777;
+}
+hr {
+  height: 2px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+code {
+    background-color: #f3f4f4;
+    padding: 0 4px 2px 4px;
+}
+
 a, a:link, a:active {
   text-decoration: none;
   color: #3fa757;
