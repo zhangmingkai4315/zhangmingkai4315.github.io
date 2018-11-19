@@ -252,3 +252,8 @@ div.col-sm-3 img.profile-avatar {
     margin-top: 30px;
   }
 }
+span.public_date{
+  float: right;
+  color: #00000080;
+  font-size: .5em;
+}
