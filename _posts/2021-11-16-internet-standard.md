@@ -8,8 +8,6 @@ categories:
   - rfc
 ---
 
-### 互联网标准规范
-
 **互联网标准**（InternetStandard）是用来定义使用在互联网上使用的某些技术和方法的一种业内标准, 由IETF(Internet Engineering Task Force)创建并发布。 这些标准一般都需要作为互联网草案（Internet Draft）提交给IETF, 后期经过审批可以成为RFC(Request for Comments), 最终才有可能成为互联网标准。
 
 一个互联网标准首先必须是技术上成熟且有用的标准， IETF同时定义了**建议标准（Proposed Standard）**作为一个成熟度尚且不够但是被广泛审核过的规范；**标准草案（Draft Standard）**在2011年不再使用了，之前作为建议标准和标准之间的一个中间阶段。
