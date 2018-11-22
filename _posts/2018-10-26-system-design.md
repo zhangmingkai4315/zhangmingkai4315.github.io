@@ -3,7 +3,7 @@ layout: post
 title: 系统架构设计实例及相关技术概念
 date: 2018-10-26T11:32:41+00:00
 author: mingkai
-permalink: /2018/10/
+permalink: /2018/10/system-design-intro
 categories:
   - Architecture
 ---
