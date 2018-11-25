@@ -3,7 +3,7 @@ layout: post
 title: Docker使用记录
 date: 2018-11-17T11:32:41+00:00
 author: mingkai
-permalink: /2018/11/docker-usage-intro
+permalink: /2018/11/
 categories:
   - docker
 ---
