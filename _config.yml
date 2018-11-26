@@ -33,7 +33,7 @@ urls:
     - text: 关于我
       url: /about/
 
-url: "https://mikezhang.cc"
+url: "http://mikezhang.cc"
 baseurl: ""
 paginate: 20
 per_page: 20

@@ -3,7 +3,7 @@ layout: post
 title: 使用Systemd管理单宿主下的Docker容器
 date: 2018-11-25T11:32:41+00:00
 author: mingkai
-permalink: /2018/11/
+permalink: /2018/11/docker-with-systemd
 categories:
   - docker
   - devops

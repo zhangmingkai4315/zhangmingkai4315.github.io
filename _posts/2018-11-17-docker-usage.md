@@ -3,7 +3,7 @@ layout: post
 title: Docker使用记录
 date: 2018-11-17T11:32:41+00:00
 author: mingkai
-permalink: /2018/11/
+permalink: /2018/11/docker-usage
 categories:
   - docker
 ---
@@ -432,13 +432,13 @@ docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY firefox -h $HOST
 检查某一个容器的信息的时候，可以使用对应inspect 获取其中的格式化输出。
 
 ```
-docker inspect --format '{{.NetworkSettings.IPAddress}}' 容器标示
+docker inspect --format '\{\{.NetworkSettings.IPAddress\}\}' 容器标示
 ```
 
 如果要对于多个信息进行操作，比如下面检查所有活跃的容器并进行ping操作
 
 ```
-docker ps -q | xargs docker inspect --format '{{.NetworkSettings.IPAddress}}' | xargs ping -c2
+docker ps -q | xargs docker inspect --format '\{\{.NetworkSettings.IPAddress\}\}' | xargs ping -c2
 ```
 
 
