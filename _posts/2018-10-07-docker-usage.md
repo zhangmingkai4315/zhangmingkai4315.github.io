@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Docker使用记录
-date: 2018-11-17T11:32:41+00:00
+date: 2018-10-07T11:32:41+00:00
 author: mingkai
-permalink: /2018/11/docker-usage
+permalink: /2018/10/docker-usage
 categories:
   - docker
+  - devops
 ---
 
 Docker将用户软件放在容器中，使应用程序的复杂度和基础设施隔离，基础设施本身变得更加简单，应用程序也更易于部署。相对于虚拟机，执行效率和速度更快，内存是共享的而不是预先分配的。用户的应用程序可以更低的成本运行，也可以按照需要的方式进行构建架构设计，而不再受原有基础设施的制约。

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 互联网标准规范
-date: 2018-11-16T11:32:41+00:00
+date: 2018-06-16T11:32:41+00:00
 author: mingkai
-permalink: /2018/11/
+permalink: /2018/06/internet-standard
 categories:
   - rfc
 ---

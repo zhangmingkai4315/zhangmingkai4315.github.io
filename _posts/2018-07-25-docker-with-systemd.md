@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 使用Systemd管理单宿主下的Docker容器
-date: 2018-11-25T11:32:41+00:00
+date: 2018-07-25T11:32:41+00:00
 author: mingkai
-permalink: /2018/11/docker-with-systemd
+permalink: /2018/07/docker-with-systemd
 categories:
   - docker
   - devops
@@ -135,3 +135,38 @@ active
 # systemctl list-timers
 ```
 
+
+### 附 Docker进程的systemd管理
+
+每个宿主机上都包含有docker进程，这些进程如果需要使用systemd控制和管理的话，可以利用下面的配置，环境变量保存在sysconf文件夹下的docker文件中,具体的配置可以按照自身需求进行修改。
+```
+DOCKER_OPTS=""
+
+```
+systemd配置单元文件如下面所示：
+
+```
+[Unit]
+Description=Docker Application
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=notify
+EnviromentFile=/etc/sysconfig/docker
+ExecStart=/usr/bin/dockerd -H unix://
+ExecReload=/bin/kill -s HUP $MAINPID
+TimeoutSec=0
+RestartSec=2
+Restart=on-failure
+StartLimitBurst=3
+StartLimitInterval=60s
+LimitNOFILE=infinity
+LimitNPROC=infinity
+LimitCORE=infinity
+Delegate=yes
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+```
