@@ -56,17 +56,20 @@ h1 {
   padding-bottom: .3em;
   font-size: 2.25em;
   line-height: 1.2;
+  font-weight: bold;
   border-bottom: 1px solid #eee;
 }
 h2 {
- padding-bottom: .3em;
+  padding-bottom: .3em;
   font-size: 1.75em;
   line-height: 1.225;
+  font-weight: bold;
   border-bottom: 1px solid #eee;
 }
 h3 {
   font-size: 1.5em;
   line-height: 1.43;
+  font-weight: bold;
 }
 h4 {
   font-size: 1.25em;
@@ -82,7 +85,8 @@ h3{
   margin: 20px 0;
 }
 h4,h5{
-  margin: 15px 0;
+  margin: 25px 0;
+  font-weight: bold;
 }
 hr {
   height: 2px;

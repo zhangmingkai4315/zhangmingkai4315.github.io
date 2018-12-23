@@ -1,7 +1,7 @@
 ---
 layout: post
 title: kubernetes容器调度策略
-date: 2018-11-26T11:32:41+00:00
+date: 2018-12-15T11:32:41+00:00
 author: mingkai
 permalink: /2018/12/schedule-mode-in-kubernetes
 categories:
