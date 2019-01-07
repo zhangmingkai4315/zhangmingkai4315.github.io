@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Python并发处理
-date: 2018-12-24T11:32:41+00:00
+date: 2019-01-06T11:32:41+00:00
 author: mingkai
 permalink: /2019/01/python-concurrent-ways
 categories:
   - python
 ---
-## Python并发与并行
 
 当我们尝试进行读写文件或者建立网络socket进行数据读写的时候，一般需要花费毫秒级别左右的时间，在此期间程序被迫暂停，等待操作完成的信号，这段等待时间称之为**IO等待时间**。并发编程则允许我们在IO等待时间执行其他的操作，从而提高程序执行的效率。即便是在单核单线程 上也可以实现并发！
 
