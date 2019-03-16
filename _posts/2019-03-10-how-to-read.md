@@ -1,15 +1,17 @@
 ---
 layout: post
-title: 《如何有效阅读一本书》读书笔记
+title: 如何有效阅读一本书
 date: 2019-02-10T11:32:41+00:00
 author: mingkai
-permalink: /2019/02/data-intensive-application-1
+permalink: /2019/03/how-to-read
 categories:
   - 读书笔记
 ---
 
 > 作者：奥野宣之（日本）
+
 > 阅读开始时间： 2019年3月10日
+
 > 阅读结束时间： 2019年3月14日
 
 

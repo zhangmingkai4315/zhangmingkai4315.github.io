@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《数据密集型应用设计》第一部分读书笔记
+title: 《数据密集型应用设计》读书笔记-第一部分
 date: 2019-02-10T11:32:41+00:00
 author: mingkai
 permalink: /2019/02/data-intensive-application-1
