@@ -3,7 +3,7 @@ layout: post
 title: Kubernetes共享存储配置和使用
 date: 2019-01-17T11:32:41+00:00
 author: mingkai
-permalink: /2018/12/kubernetes-peristent-volume
+permalink: /2019/01/kubernetes-peristent-volume
 categories:
   - kubernetes
   - docker
